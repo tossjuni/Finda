@@ -1,0 +1,69 @@
+hr{
+    margin-bottom:10px;
+    margin-top:0px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    border-radius: 0;
+}
+
+.total{
+    padding: 20px 10px 0 20px;
+}
+
+.header{
+    background-color:#4e7bfa;
+    height: auto;
+}
+
+.header img{
+    display: block;
+    margin: 0 auto;
+    padding: 20% 0 0 0;
+    width: 80px;
+}
+.white{
+    color: #fff;
+}
+.cardtype{
+    font-size:0.8rem;
+    border: solid 1px #ffffff;
+    border-radius: 3px;
+    width: auto;
+    display:inline-block;
+    color: #fff;
+    padding: 2px 4px 2px 4px;
+    margin: 10px 10px 10px 10px;   
+}
+.cardgroup_1{
+    padding: 5px 10px;
+    border-top: solid 1px #7195FB;
+}
+.cardgroup_2{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.cardname{
+    font-size:0.8rem;
+    color: #b8cafd;
+}
+.cardexpense{
+    font-size: 1rem;
+    color:#fff;
+}
+.copywrite{
+    margin-top:10px;
+    font-size: 0.9rem;
+}
+
+.card_result_info ul{
+    font-size: 0.8rem;
+    padding: 10px 10px 0px 20px;
+    margin-top: 10px;
+    color: #999;
+}

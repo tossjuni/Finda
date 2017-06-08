@@ -17,8 +17,11 @@ hr{
 .header{
     background-color:#4e7bfa;
     height: auto;
+    padding: 10px 0px;
 }
-
+.blue600{
+    background-color:#3e63bc
+}
 .header img{
     display: block;
     margin: 0 auto;
@@ -66,4 +69,8 @@ hr{
     padding: 10px 10px 0px 20px;
     margin-top: 10px;
     color: #999;
+}
+.benefir_category.h6{
+    text-align: center;
+    font-weight: 700;
 }

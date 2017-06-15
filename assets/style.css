@@ -70,7 +70,25 @@ hr{
     margin-top: 10px;
     color: #999;
 }
-.benefir_category.h6{
+.benefit{
+    text-align:center;
+    font-weight: 700;
+}
+.benefit .description{
+    font-weight: 500;
+}
+.benefit_category.p{
     text-align: center;
     font-weight: 700;
+}
+.text_wrap_hr {
+    border-bottom:1px solid #666;
+    line-height:16px;
+    text-align:center;
+}
+.text_wrap_hr.text {
+    background:#FFF;
+    position:relative;
+    bottom:-8px;
+    padding:0 15px;
 }

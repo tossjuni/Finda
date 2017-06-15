@@ -23,29 +23,31 @@
     </div>
         <!-- 카드 A -->
         
-    <!-- -->
-    <div class="container mb-4">
+    <!-- 혜택 -->
+    <div class="container md-4 mt-4">
         <div class="benefit">
-            <div class="benefit_category">
+            <div class="benefit category">
                 <p>마트/편의점</p>
+                <div class="description">
+                    <p>편의점: 7% 할인 또는 1% 적립</p>
+                </div>
             </div>
-            <div class="benefit_description mb-3">
-                <p>편의점: 7% 할인 또는 1% 적립</p>
-            </div>
-            <div class="benefit_category">
-                <p id="readmore" style="display:none">교통</p>
-            </div>
-            <div class="benefit_description">
-                <p id="readmore" style="display:none;">대중교통 10% 할인</p>
+    <!-- 접기 펴기 -->
+            <div class="benefit category">
+                <p id="readmore" style="display:none">교통
+                <div class="description">
+                    <p id="readmore" style="display:none;">대중교통 10% 할인</p>
+                </div>
             </div>
         </div>
-        <button type="button" class="btn btn-outline-accent btn-lg btn-block" href="#" onclick="show('readmore')">카드 혜택 더보기</button>
-        <button type="button" class="btn btn-accent btn-lg btn-block">카드 가입하러 가기</button>
+        <button type="button" class="btn btn-outline-accent btn-lg btn" href="#" onclick="show('readmore')" style="display:inline-block;" >혜택 더보기</button>
+        <button type="button" class="btn btn-accent btn-lg btn" style="display:inline-block;">카드 가입하기</button>
         <div class="card_result_info">
-
         </div>
     </div>
-    
+    <div class="text_wrap_hr mt-4">
+        <div class="text">Some text</div>
+    </div>
 
     <!-- Toss JS Framework CDN -->
     <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

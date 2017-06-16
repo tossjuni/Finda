@@ -15,40 +15,61 @@
     <link href="assets/style.css" type="text/css" rel="stylesheet"> 
 </head>
 
-<body>
-    <div class="header blue600 pt-4">
-        <p class="blue300-text" style="margin-bottom:0.2rem; font-size:0.8rem; text-align:center;"><b>#야근후편의점퇴근족</b><br>을 위한 Best 추천카드</p>
+<body><!-- 첫번째 카드 -->
+    <div class="header blue600 pt-4" style="height:150px;">
+        <p class="white" style="margin-bottom:0.2rem; font-size:0.8rem; text-align:center;"><b>#카페인홀릭 커피매니아</b><br>을 위한 Best 추천카드</p>
+    </div>
+    <div class="main_card_img">
         <img src="assets/img/samplecardimage.png" style="width:70%; padding:10px;">
-        <h4 class="white thin mt-2" style="text-align:center;">삼성카드 taptap O</h4>
-    </div>
-        <!-- 카드 A -->
-        
-    <!-- 혜택 -->
-    <div class="container md-4 mt-4">
-        <div class="benefit">
-            <div class="benefit category">
-                <p>마트/편의점</p>
-                <div class="description">
-                    <p>편의점: 7% 할인 또는 1% 적립</p>
+        <h4 class="thin mt-2" style="text-align:center;">삼성카드 taptap O</h4>
+    </div>  
+    <div class="container">
+        <hr style="margin-right:50px;margin-left:50px;">
+        <div class="benefit_title">
+            <p>현재 이 카드를 쓰는 분이 <br>이런점을 추천하시네요</p>
+        </div>
+        <div class="benefit_user_review">
+            <p>“이 카드 쓰고
+                커피값 세이브 많이 됬어요
+                스타벅스는 무려 50% 할인!”
+            </p>
+        </div>        
+        <div style="margin:auto; padding:auto; text-align:center;">
+            <button type="button" class="btn btn-outline-accent btn" href="#" onclick="show('readmore')" style="display:inline-block;" >리뷰 더보기</button>
+             <button type="button" class="btn btn-accent btn" style="display:inline-block;">신청하러 가기</button>
+        </div>
+        <!-- 두번째 카드 -->
+        <div class="more_card">
+            <div class="benefit_title" style="margin-bottom:30px;">
+                이런 카드도 있어요
+            </div> 
+            <img src="assets/img/samplethumb1.png">
+                <h5 class="thin mt-3">신한카드 B.Big(삑) </h5>
+                <hr style="margin-right:50px;margin-left:50px;">
+                <div class="benefit_user_review">
+                    “유명 커피샵들 다 할인 완전 이득!”
                 </div>
-            </div>
-    <!-- 접기 펴기 -->
-            <div class="benefit category">
-                <p id="readmore" style="display:none">교통
-                <div class="description">
-                    <p id="readmore" style="display:none;">대중교통 10% 할인</p>
-                </div>
+            <div style="margin:auto; padding:auto; text-align:center;">
+            <button type="button" class="btn btn-outline-accent btn" href="#" o    nclick="show('readmore')" style="display:inline-block;" >리뷰 더보기</button>
+             <button type="button" class="btn btn-accent btn" style="display:inline-block;">신청하러 가기</button>
             </div>
         </div>
-        <button type="button" class="btn btn-outline-accent btn-lg btn" href="#" onclick="show('readmore')" style="display:inline-block;" >혜택 더보기</button>
-        <button type="button" class="btn btn-accent btn-lg btn" style="display:inline-block;">카드 가입하기</button>
-        <div class="card_result_info">
+        <div class="more_card">
+            <img src="assets/img/samplethumb2.png">
+                <h5 class="thin mt-3">신한카드 B.Big(삑) </h5>
+                <hr style="margin-right:50px;margin-left:50px;">
+                <div class="benefit_user_review">
+                    “저의 카페인레벨을 유지시켜주는 좋은 카드”
+                </div>
+            <div style="margin:auto; padding:auto; text-align:center;">
+            <button type="button" class="btn btn-outline-accent btn" href="#" o    nclick="show('readmore')" style="display:inline-block;" >리뷰 더보기</button>
+             <button type="button" class="btn btn-accent btn" style="display:inline-block;">신청하러 가기</button>
+            </div>
         </div>
-    </div>
-    <div class="text_wrap_hr mt-4">
-        <div class="text">Some text</div>
-    </div>
+        <p style="font-size:0.8rem; text-align:center; color:#7b859d;">powered by FINDA</p>
+     </div>    
 
+  
     <!-- Toss JS Framework CDN -->
     <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://toss.im/tossframe/assets/javascripts/tossframe.js"></script>

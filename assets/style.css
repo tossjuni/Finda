@@ -22,11 +22,12 @@ hr{
 .blue600{
     background-color:#3e63bc
 }
-.header img{
+.main_card_img img{
     display: block;
     margin: 0 auto;
     padding: 20% 0 0 0;
     width: 80px;
+    margin-top: -25%
 }
 .white{
     color: #fff;
@@ -70,25 +71,24 @@ hr{
     margin-top: 10px;
     color: #999;
 }
-.benefit{
+.benefit_title{
     text-align:center;
-    font-weight: 700;
+    font-weight:500;
+    font-size: 0.8rem;
+    color:#5c6476;
+    padding: 10px 30px;
 }
-.benefit .description{
-    font-weight: 500;
-}
-.benefit_category.p{
+
+.benefit_user_review{
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
+    font-size:1rem;
+    color:#3d424e;
+    padding: 0px 10px 10px 10px;
+    margin: 0 30px 10px 30px;
+    word-break:keep-all
 }
-.text_wrap_hr {
-    border-bottom:1px solid #666;
-    line-height:16px;
+.more_card{
+    padding: 30px 0px;
     text-align:center;
-}
-.text_wrap_hr.text {
-    background:#FFF;
-    position:relative;
-    bottom:-8px;
-    padding:0 15px;
 }

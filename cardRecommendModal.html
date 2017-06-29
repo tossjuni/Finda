@@ -2,18 +2,16 @@
 <html lang="ko">
 
 <head>
-    <!--    <link rel="import" href="WebpayHead.html">-->
-    <!-- COMMON TAGS -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>이번달 카드값</title>
-    <!-- Toss 공용 CSS -->
-    <link href="https://toss.im/frame/assets/stylesheets/tossframe-2.0.4.css" type="text/css" rel="stylesheet">
+    <!-- 위 3개의 메타 태그는 *반드시* head 태그의 처음에 와야합니다; 어떤 다른 콘텐츠들은 반드시 이 태그들 *다음에* 와야 합니다 -->
+    <title>Toss Web Framework</title>
+
+    <!-- Toss 공용 CSS 문서의 맨 처음에 와야 합니다;-->
+    <link href="https://toss.im/frame/assets/stylesheets/tossframe-2.0.4.css" rel="stylesheet">
     <!-- component CSS -->
-    <link href="assets/tossframestyle.css" type="text/css" rel="stylesheet">
     <link href="assets/style.css" type="text/css" rel="stylesheet">
-    
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -28,8 +26,37 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQLQ78R"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+<!--  modal  -->
+    <div class="modal-mask">
+        <div class="modal-wrapper">
+            <div class="modal-container">
+                <div class="modal-header">
+                    <p>다른 분들은 이렇게 추천하셨어요.</p>
+                </div>
+                <div class="modal-body">
+                    <slot name="body">
+                        <div class="benefit_user_review">
+                            “이 카드 쓰고
+                            커피값 세이브 많이 됬어요
+                            스타벅스는 무려 50% 할인!”
+                        </div>
+                        <hr>
+                        <div class="benefit_user_review">
+                            "편의점 할인도 쏠쏠 전 편의점 퇴근족이라 애용중"
+                        </div>
+                    </slot>
+                </div>
+                <div class="modal-footer">
+                    <slot name="footer">
+                         <a class="btn btn-block btn-accent" href="" role="button">지금 신청하러 가기</a>
+                         <a class="btn btn-block btn-outline-accent btn" href="index.html">확인</a>
+                    </slot>
+                </div>
+            </div>
+        </div>
+    </div>
 <!-- 첫번째 카드 -->
-    <div class="header blue600 pt-4">
+   <div class="header blue600 pt-4">
         <p class="white header_title"><b>#카페인홀릭 커피매니아</b><br>을 위한 Best 추천카드</p>
     </div>
     <div class="pt-3 main_card_img">
@@ -85,20 +112,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p class="footer_description">powered by FINDA</p>
         <br>  
 
-
-  
     <!-- Toss JS Framework CDN -->
-    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://toss.im/tossframe/assets/javascripts/tossframe.js"></script>
-    <script>
-        $(document).ready(function () {});
-    </script>
-    <!--접기펴기-->
-   <script>
-     function show(ele){
-         document.getElementById(ele).style.display = 'block';   
-    }
-    </script>
+
 </body>
 
 </html>

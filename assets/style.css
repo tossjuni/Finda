@@ -1,3 +1,6 @@
+body{
+    font-family: spoqaHanSans;
+}
 hr{
     margin-bottom:10px;
     margin-top:0px;
@@ -18,19 +21,38 @@ hr{
     background-color:#3e63bc;
     height: auto;
     padding: 10px 0px;
+    height: 150px;
 }
+.header_title{
+    margin-bottom:0.2rem; 
+    font-size:0.8rem; 
+    text-align:center;
+}
+
 .blue600{
     background-color:#3e63bc
 }
+
 .main_card_img img{
     display: block;
-    margin: 0 auto;
-    padding: 20% 0 0 0;
-    width: 80px;
-    margin-top: -25%
+    position: relative;
+    vertical-align: middle;
+    margin:auto;
+    padding-top: 15%;
+    width: 250px;
+    margin-top: -35%;
+}
+.main_card_title{
+    text-align:center;
+    margin-top: 24px;
 }
 .white{
     color: #fff;
+}
+.card_wrap{
+    margin:auto; 
+    padding:auto; 
+    text-align:center;
 }
 .cardtype{
     font-size:0.8rem;
@@ -43,8 +65,10 @@ hr{
     margin: 10px 10px 10px 10px;   
 }
 .cardgroup_1{
-    padding: 5px 10px;
-    border-top: solid 1px #7195FB;
+    padding: 10px 5px;
+    border-top: solid 1px #7195fb;
+    margin: 0 20px;
+
 }
 .cardgroup_2{
     display: inline-block;
@@ -76,7 +100,8 @@ hr{
     font-weight:500;
     font-size: 0.8rem;
     color:#5c6476;
-    padding: 10px 30px;
+    padding: 10px 20px;
+    margin-bottom:30px;
 }
 
 .benefit_user_review{
@@ -85,10 +110,88 @@ hr{
     font-size:1rem;
     color:#3d424e;
     padding: 0px 10px 10px 10px;
-    margin: 0 30px 10px 30px;
+    margin: 0 10px 10px 10px;
     word-break:keep-all
 }
 .more_card{
-    padding: 30px 0px;
+    padding: 20px 0px;
     text-align:center;
+}
+.more_card img{
+    width: 120px;
+}
+.long_column{
+    width: 100px;
+}
+hr.card_hr{
+    margin-right:50px;
+    margin-left:50px;
+}
+/* modal */
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: block;
+    transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+    display: block;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.modal-container {
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+    transition: all .3s ease;
+    text-align: left;
+}
+.modal-header {
+    display: block;
+}
+.modal-header p{
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    font-weight: 400;
+    text-align: center !important;
+    color: #5C6476;
+    display:block;
+    text-align: center;
+}
+
+.modal-body {
+    margin: 0;
+    padding: 10px 20px 0px 20px !important;
+    text-align: left;
+    font-size: 1.1rem;
+    word-break: break-all;
+}
+
+.modal-default-button {
+    float: right;
+}
+
+.modal-footer {
+    display: block;
+    align-content: center;
+    text-align: center;
+}
+
+.modal-body .benefit_user_review{
+    font-size: 14px;
+    text-align: center;
+}
+.footer_description{
+    font-size:0.8rem; 
+    text-align:center; 
+    color:#7b859d;
 }

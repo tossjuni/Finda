@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
-    <!--    <link rel="import" href="WebpayHead.html">-->
     <!-- COMMON TAGS -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,14 +9,9 @@
     <!-- Toss 공용 CSS -->
     <link href="https://toss.im/frame/assets/stylesheets/tossframe-2.0.4.css" type="text/css" rel="stylesheet">
     <!-- component CSS -->
-<<<<<<< HEAD
-    <link href="assets/terms.css" type="text/css" rel="stylesheet">
     <link href="assets/style.css" type="text/css" rel="stylesheet">
-=======
     <link href="assets/tossframestyle.css" type="text/css" rel="stylesheet">
-    <link href="assets/style.css" type="text/css" rel="stylesheet">
-    
->>>>>>> e5bd05f28b4e67b5e9a488436d176a756b9dafd5
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -33,72 +26,34 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQLQ78R"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<<<<<<< HEAD
     <div class="header">
         <img src="assets/img/indexIntro.png">
         <h5 class="white mt-4" style="text-align:center;">나, 지난달에 카드 얼마 썼더라?</h5>
         <p class="white" style="font-size:0.8rem; text-align:center;">카드사 별로 확인해야 하는<br>내 카드 소비량 한번에 확인하기.</p>
         <p class="blue300-text pb-4" style="font-size:0.8rem; text-align:center;">신용조회서비스는 KCB 올크레딧에서 제공합니다.</p>
-=======
-<!-- 첫번째 카드 -->
-    <div class="header blue600 pt-4">
-        <p class="white header_title"><b>#카페인홀릭 커피매니아</b><br>을 위한 Best 추천카드</p>
->>>>>>> e5bd05f28b4e67b5e9a488436d176a756b9dafd5
     </div>
-    <div class="pt-3 main_card_img">
-        <img src="assets/img/samplecardimage.png">
-        <h4 class="main_card_title thin">삼성카드 taptap O</h4>
-    </div>  
     <div class="container">
-        <hr class="card_hr">
-        <div class="benefit_title">
-            <p>현재 이 카드를 쓰는 분이 <br>이런점을 추천하시네요</p>
+        <div class="term-agree-required">
+            <label class="checkbox-lg blod agree-all">
+                <input type="checkbox" name="input1" checked style="word-brak:break-all;">토스 신용관리 서비스 이용을 위한 약관에 모두 동의
+                 </label>
+                 <ul class="terms-list required">
+                     <li class="terms-child">
+                         토스 신용관리 서비스 이용약관<a href="#" class="oi oi-chevron-right float-right"></a>
+                     </li>
+                     <li class="terms-child">
+                         KBC 올크레딧 이용약관<a href="#" class="oi oi-chevron-right float-right"></a>
+                     </li>
+                     <li class="terms-child">
+                         개인정보 수집/이용 동의<a href="#" class="oi oi-chevron-right float-right"></a>
+                     </li>
+                     <li class="terms-child">
+                         개인정보 제3자 제공 동의<a href="#" class="oi oi-chevron-right float-right"></a>
+                     </li>
+                 </ul>
         </div>
-        <div class="benefit_user_review">
-            <p>“이 카드 쓰고
-                커피값 세이브 많이 됬어요
-                스타벅스는 무려 50% 할인!”
-            </p>
-        </div>    
-        <div class="card_wrap">
-            <a class="btn btn-outline-accent btn mx-2" href="cardRecommendModal.html">리뷰 더보기</a>
-            <a class="btn btn-accent" href="#" role="button">신청하러 가기</a>
-        </div>
-        <!-- 두번째 카드 -->
-        <br>
-            <hr class="card_hr">
-        <div class="more_card">
-            <div class="benefit_title">
-                이런 카드도 있어요
-            </div> 
-            <img src="assets/img/samplethumb1.png">
-                <h5 class="thin mt-3">신한카드 B.Big(삑) </h5>
-                    <hr class="card_hr">
-                <div class="benefit_user_review">
-                    “유명 커피샵들 다 할인 완전 이득!”
-                </div>
-            <a class="btn mx-2 btn-outline-accent btn" href="cardRecommendModal.html">리뷰 더보기</a>
-            <a class="btn btn-accent" href="#" role="button">신청하러 가기</a>
-            </div>
-        </div>
-        <br>
-        <div class="more_card">
-            <img class="long_column" src="assets/img/samplethumb3.png">
-                <h5 class="thin mt-3">현대카드 ZERO(할인형) </h5>
-                    <hr class="card_hr">
-                <div class="benefit_user_review">
-                    “저의 카페인레벨을 유지시켜주는 좋은 카드”
-                </div>
-        <div class="card_wrap">
-            <a class="btn mx-2 btn-outline-accent btn">리뷰 더보기</a>
-            <a class="btn btn-accent" href="#" role="button">신청하러 가기</a>
-            </div>
-        </div>
-        <br>
-        <p class="footer_description">powered by FINDA</p>
-        <br>  
-
-
+    </div>
+     <a href="monthlyExpense.html" id="footer" class="btn  btn-accent btn-lg btn-block">다음</a>
   
     <!-- Toss JS Framework CDN -->
     <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

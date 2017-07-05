@@ -1,10 +1,8 @@
-<<<<<<< HEAD
 
-=======
 body{
     font-family: spoqaHanSans;
 }
->>>>>>> e5bd05f28b4e67b5e9a488436d176a756b9dafd5
+
 hr{
     margin-bottom:10px;
     margin-top:0px;
@@ -25,14 +23,14 @@ hr{
     background-color:#3e63bc;
     height: auto;
     padding: 10px 0px;
-    height: 150px;
 }
+
 .header_title{
     margin-bottom:0.2rem; 
     font-size:0.8rem; 
     text-align:center;
 }
-<<<<<<< HEAD
+
 .header img{
     width: 80px;
     display:block;
@@ -45,8 +43,7 @@ hr{
     text-align:center;
     line-height:1.6rem;
 }
-=======
->>>>>>> e5bd05f28b4e67b5e9a488436d176a756b9dafd5
+
 
 .blue600{
     background-color:#3e63bc
@@ -73,13 +70,12 @@ hr{
     padding:auto; 
     text-align:center;
 }
-<<<<<<< HEAD
+
 .monthly_expense_description{
     font-size: 0.8rem;
     color:#b8cafd;
 }
-=======
->>>>>>> e5bd05f28b4e67b5e9a488436d176a756b9dafd5
+
 .cardtype{
     font-size:0.8rem;
     border: solid 1px #ffffff;
@@ -94,10 +90,6 @@ hr{
     padding: 10px 5px;
     border-top: solid 1px #7195fb;
     margin: 0 20px;
-<<<<<<< HEAD
-=======
-
->>>>>>> e5bd05f28b4e67b5e9a488436d176a756b9dafd5
 }
 .cardgroup_2{
     display: inline-block;
@@ -147,17 +139,15 @@ hr{
     text-align:center;
 }
 .more_card img{
-<<<<<<< HEAD
     max-width: 180px;
     max-height: 180px;
     width:auto;
     height:auto;
-=======
+
     width: 120px;
 }
 .long_column{
     width: 100px;
->>>>>>> e5bd05f28b4e67b5e9a488436d176a756b9dafd5
 }
 hr.card_hr{
     margin-right:50px;

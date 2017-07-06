@@ -41,12 +41,16 @@ hr{
 
 .main_card_img img{
     display: block;
-    position: relative;
-    vertical-align: middle;
     margin:auto;
-    padding-top: 15%;
+    margin-top: -90px;
     width: 250px;
-    margin-top: -35%;
+}
+.main_card_img img.vertical{
+    transform: rotate(90deg);
+    vertical-align: middle;
+    text-align: center;
+    margin-top: -45px;
+    margin-bottom: 80px;
 }
 .card_title{
     text-align:center;

@@ -2862,29 +2862,29 @@ label.radio-lg {
 @font-face {
   font-family: 'Spoqa Han Sans';
   font-weight: 700;
-  src: local("Spoqa Han Sans Bold"), local("Spoqa Han Sans Bold"), url("/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Bold.woff2") format("woff2"), url("/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Bold.woff") format("woff"), url("/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Bold.ttf") format("truetype"); }
+  src: local("Spoqa Han Sans Bold"), local("Spoqa Han Sans Bold"), url("https://toss.im/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Bold.woff2") format("woff2"), url("https://toss.im/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Bold.woff") format("woff"), url("https://toss.im/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Bold.ttf") format("truetype"); }
 @font-face {
   font-family: 'Spoqa Han Sans';
   font-weight: 400;
-  src: local("Spoqa Han Sans Regular"), local("Spoqa Han Sans Regular"), url("/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Regular.woff2") format("woff2"), url("/frame/2.0/_docs/assets/fonts/SpoqaHanSans-Regular.woff") format("woff"), url("/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Regular.ttf") format("truetype"); }
+  src: local("Spoqa Han Sans Regular"), local("Spoqa Han Sans Regular"), url("https://toss.im/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Regular.woff2") format("woff2"), url("https://toss.im/frame/2.0/_docs/assets/fonts/SpoqaHanSans-Regular.woff") format("woff"), url("https://toss.im/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Regular.ttf") format("truetype"); }
 @font-face {
   font-family: 'Spoqa Han Sans';
   font-weight: 300;
-  src: local("Spoqa Han Sans Light"), local("Spoqa Han Sans Light"), url("/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Light.woff2") format("woff2"), url("/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Light.woff") format("woff"), url("/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Light.ttf") format("truetype"); }
+  src: local("Spoqa Han Sans Light"), local("Spoqa Han Sans Light"), url("https://toss.im/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Light.woff2") format("woff2"), url("https://toss.im/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Light.woff") format("woff"), url("https://toss.im/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Light.ttf") format("truetype"); }
 @font-face {
   font-family: 'Spoqa Han Sans';
   font-weight: 100;
-  src: local("Spoqa Han Sans Thin"), local("Spoqa Han Sans Thin"), url("/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Thin.woff2") format("woff2"), url("/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Thin.woff") format("woff"), url("/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Thin.ttf") format("truetype"); }
+  src: local("Spoqa Han Sans Thin"), local("Spoqa Han Sans Thin"), url("https://toss.im/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Thin.woff2") format("woff2"), url("https://toss.im/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Thin.woff") format("woff"), url("https://toss.im/frame/2.0/_docs/assets/fonts/Spoqa%20Han%20Sans%20Thin.ttf") format("truetype"); }
 @font-face {
   font-family: 'toss_icon_set';
-  src: url("/frame/2.0/_docs/assets/fonts/toss_icon_set.eot?sdehhk");
-  src: url("/frame/2.0/_docs/assets/fonts/toss_icon_set.eot?sdehhk#iefix") format("embedded-opentype"), url("/frame/2.0/_docs/assets/fonts/toss_icon_set.ttf?sdehhk") format("truetype"), url("/frame/2.0/_docs/assets/fonts/toss_icon_set.woff?sdehhk") format("woff"), url("/frame/2.0/_docs/assets/fonts/toss_icon_set.svg?sdehhk#toss_icon_set") format("svg");
+  src: url("https://toss.im/frame/2.0/_docs/assets/fonts/toss_icon_set.eot?sdehhk");
+  src: url("https://toss.im/frame/2.0/_docs/assets/fonts/toss_icon_set.eot?sdehhk#iefix") format("embedded-opentype"), url("https://toss.im/frame/2.0/_docs/assets/fonts/toss_icon_set.ttf?sdehhk") format("truetype"), url("https://toss.im/frame/2.0/_docs/assets/fonts/toss_icon_set.woff?sdehhk") format("woff"), url("https://toss.im/frame/2.0/_docs/assets/fonts/toss_icon_set.svg?sdehhk#toss_icon_set") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'toss_icon_set';
-  src: url("../assets/fonts/toss_icon_set.eot?sdehhk");
-  src: url("../assets/fonts/toss_icon_set.eot?sdehhk#iefix") format("embedded-opentype"), url("../assets/fonts/toss_icon_set.ttf?sdehhk") format("truetype"), url("../assets/fonts/toss_icon_set.woff?sdehhk") format("woff"), url("../assets/fonts/toss_icon_set.svg?sdehhk#toss_icon_set") format("svg");
+  src: url("https://toss.im/frame/2.0/_docs/assets/fonts/toss_icon_set.eot?sdehhk");
+  src: url("https://toss.im/frame/2.0/_docs/assets/fonts/toss_icon_set.eot?sdehhk#iefix") format("embedded-opentype"), url("https://toss.im/frame/2.0/_docs/assets/fonts/toss_icon_set.ttf?sdehhk") format("truetype"), url("https://toss.im/frame/2.0/_docs/assets/fonts/toss_icon_set.woff?sdehhk") format("woff"), url("https://toss.im/frame/2.0/_docs/assets/fonts/toss_icon_set.svg?sdehhk#toss_icon_set") format("svg");
   font-weight: normal;
   font-style: normal; }
 i {
@@ -3189,8 +3189,8 @@ background-color: #3D424E;
 /* Override Bootstrap default variable */
 @font-face {
   font-family: 'Icons';
-  src: url("/frame/2.0/_docs/assets/fonts/open-iconic.eot");
-  src: url("/frame/2.0/_docs/assets/fonts/open-iconic.eot?#iconic-sm") format("embedded-opentype"), url("/frame/2.0/_docs/assets/fonts/open-iconic.woff") format("woff"), url("/frame/2.0/_docs/assets/fonts/open-iconic.ttf") format("truetype"), url("/frame/2.0/_docs/assets/fonts/open-iconic.svg#iconic-sm") format("svg");
+  src: url("https://toss.im/frame/2.0/_docs/assets/fonts/open-iconic.eot");
+  src: url("https://toss.im/frame/2.0/_docs/assets/fonts/open-iconic.eot?#iconic-sm") format("embedded-opentype"), url("https://toss.im/frame/2.0/_docs/assets/fonts/open-iconic.woff") format("woff"), url("https://toss.im/frame/2.0/_docs/assets/fonts/open-iconic.ttf") format("truetype"), url("https://toss.im/frame/2.0/_docs/assets/fonts/open-iconic.svg#iconic-sm") format("svg");
   font-weight: normal;
   font-style: normal; }
 .oi {
@@ -8635,7 +8635,7 @@ tbody.collapse.show {
   line-height: 1.25;
   color: #111;
   vertical-align: middle;
-  background: #fff url("/frame/2.0/_docs/assets/svg/caret-bottom.svg") no-repeat right 0.75rem center;
+  background: #fff url("https://toss.im/frame/2.0/_docs/assets/svg/caret-bottom.svg") no-repeat right 0.75rem center;
   background-size: 8px 10px;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -10171,3 +10171,4 @@ button.close {
   padding-bottom: 20px;
   color: #fff;
   text-align: center; }
+

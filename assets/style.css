@@ -58,7 +58,7 @@ hr{
 }
 .card_title{
     text-align:center;
-    margin-bottom: 24px;
+    margin: 24px 0px;
 }
 .white{
     color: #fff;
@@ -225,4 +225,5 @@ hr.card_hr{
 }
 img.finda_logo{
     width: 70px;
+    margin-bottom: 0.1rem;
 }

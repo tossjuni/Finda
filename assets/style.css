@@ -1,6 +1,6 @@
 
 body{
-    font-family: "Spoqa Han Sans";
+    font-family: 'Spoqa Han Sans'
 }
 
 hr{
@@ -31,7 +31,7 @@ hr{
     margin: 10% auto;
 }
 .header_title{
-    margin-bottom:0.2rem;
+    margin-bottom:0.2rem; 
     text-align:center;
     line-height:1.6rem;
 }
@@ -39,6 +39,10 @@ hr{
     background-color:#3e63bc
 }
 
+.expense button{
+    margin: 10px 0px;
+    height: 50px;
+}
 .main_card_img img{
     display: block;
     margin:auto;
@@ -54,19 +58,15 @@ hr{
 }
 .card_title{
     text-align:center;
-    margin: 24px 0;
+    margin-bottom: 24px;
 }
 .white{
     color: #fff;
 }
 .card_wrap{
-    margin:auto;
-    padding:auto;
     text-align:center;
-}
-
-.card_wrap > .btn.btn-outline-accent {
-    color: #144ae1 !important;
+    padding-bottom: 30px;
+    border-bottom: 1px dotted #999999; 
 }
 
 .monthly_expense_description{
@@ -82,7 +82,7 @@ hr{
     display:inline-block;
     color: #fff;
     padding: 2px 4px 2px 4px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;   
 }
 .cardgroup_1{
     padding: 10px 5px;
@@ -104,8 +104,8 @@ hr{
     color:#fff;
 }
 .copywrite{
-    margin-top:10px;
-    font-size: 0.9rem;
+    margin: 20px 0px; 
+    font-size: 1rem;
 }
 
 .card_result_info ul{
@@ -135,6 +135,7 @@ hr{
     padding: 20px 0px;
     text-align:center;
 }
+
 .more_card img{
     max-width: 180px;
     max-height: 180px;
@@ -143,13 +144,12 @@ hr{
 }
 
 .more_card img.vertical {
-    margin:30px 0;
+    margin:30px; 0;
     transform: rotate(90deg);
 }
 
 hr.card_hr{
-    margin-right:50px;
-    margin-left:50px;
+    margin: 0% 40%;
 }
 /* modal */
 .modal-mask {
@@ -215,7 +215,10 @@ hr.card_hr{
     text-align: center;
 }
 .footer_description{
-    font-size:0.8rem;
-    text-align:center;
+    font-size:0.8rem; 
+    text-align:center; 
     color:#7b859d;
+}
+img.finda_logo{
+    width: 70px;
 }

@@ -16,7 +16,7 @@ hr{
 }
 
 .total{
-    padding: 20px 10px 0 20px;
+    padding: 0 20px;
 }
 
 .header{
@@ -86,7 +86,7 @@ hr{
 }
 .cardgroup_1{
     padding: 10px 5px;
-    border-top: solid 1px #7195fb;
+    border-bottom: solid 1px #7195fb;
     margin: 0 20px;
 }
 .cardgroup_2{
@@ -104,8 +104,8 @@ hr{
     color:#fff;
 }
 .copywrite{
-    margin: 20px 0px; 
-    font-size: 1rem;
+    margin: 0 20px; 
+    font-size: 0.875rem;
 }
 
 .card_result_info ul{

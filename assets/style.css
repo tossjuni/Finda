@@ -14,7 +14,9 @@ hr{
     z-index: 99;
     border-radius: 0;
 }
-
+.center{
+    text-align: center;
+}
 .total{
     padding: 0 20px;
 }
